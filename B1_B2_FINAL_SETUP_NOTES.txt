@@ -1,0 +1,12 @@
+AJS TRADING PRO — NIFTY BOX 1 B0/B1/B2 FINAL SETUP
+
+1) Opening range: 09:15–09:45 IST using six completed 5-minute candles.
+2) Once range is ready, show WELCOME TO THE RANGE popup once per day.
+3) B0: completed 5-minute candle closes above range high (CALL) or below range low (PUT); show RANGE BREAK UP/DOWN popup.
+4) B1 retest: retest of range edge and close holding on breakout side; show WAIT FOR B1 popup with 15-second timer.
+5) B1 strong continuation: directional candle body >=55% of candle range and close in the outer 25% in breakout direction; show EARLY ENTRY DONE popup and flower shower for 30 seconds. This is not final B2 confirmation.
+6) B2: completed 5-minute candle must break B1 high/low and close beyond that level. CALL: B2 high and close above B1 high. PUT: B2 low and close below B1 low.
+7) On fresh B2 confirmation, show entry confirmation popup, fireworks/flowers for 60 seconds, and the existing ATM plan popup. Paper mode remains; no real order is placed.
+8) Popups/animations are visual alerts, not proof of profitability. Confirm live quote, SL and target.
+
+NOTE: The 15/30/60-second timers are display durations. Candle confirmation still depends on completed 5-minute Upstox candles.
